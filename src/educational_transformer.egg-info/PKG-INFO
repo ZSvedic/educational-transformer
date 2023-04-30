@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: educational-transformer
+Version: 0.1
+Summary: An educational implementation of the Transformer model.
+Author: Zeljko Svedic
+License: MIT
+License-File: LICENSE

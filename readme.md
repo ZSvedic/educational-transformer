@@ -38,7 +38,7 @@ To start, open the root folder in VSCode, and open [main.py](main.py), which con
 * Code cells can be run interactively by using ```Run Cell|Run Below/Above|Debug Cell``` above cells.
 * Unlike Jupyter notebooks, cell outputs are in a separate Interactive window. The "notebook" state is deleted as soon you close that window.
 
-Another file code cells file is [param_search.py](param_search.py), which searches for the best hyperparameters for this toy model.
+Another code cells file is [param_search.py](param_search.py), which searches for the best hyperparameters for this toy model.
 
 ## Project Structure
 
@@ -52,7 +52,7 @@ The project consists of the following files:
     * [src/train_eval.py](src/train_eval.py) - Trainer and evaluator specific to this dataset and model.
 * [param-calc.xlsx](param-calc.xlsx) - Spreadsheet that calculates number of parameters in a model.
 * [Wiki-Full-GPT-architecture.png](Wiki-Full-GPT-architecture.png) - Wikipedia image of GPT-2 transformer architecture.
-* [README.md](README.md)- This file.
+* [readme.md](readme.md) - This file.
 * [LICENSE](LICENSE) - MIT license.
 * [setup.py](setup.py) - Metadata and requirements.
 

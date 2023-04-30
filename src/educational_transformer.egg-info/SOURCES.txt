@@ -1,0 +1,11 @@
+LICENSE
+setup.py
+src/dataset.py
+src/model.py
+src/pytorch_utils.py
+src/train_eval.py
+src/educational_transformer.egg-info/PKG-INFO
+src/educational_transformer.egg-info/SOURCES.txt
+src/educational_transformer.egg-info/dependency_links.txt
+src/educational_transformer.egg-info/requires.txt
+src/educational_transformer.egg-info/top_level.txt
