@@ -15,7 +15,7 @@ This Python project is an easy-to-follow, educational implementation of the tran
 ```
 
 This transformer implementation is simpler because:
-* There is no tokenizer step, instead generated data is dircetly fed to the model. 
+* There is no tokenizer step, instead generated data is directly fed to the model. 
 * There is no support for loading pretrained GPT2 or similar model wights.
 * It doesn't try to reproduce results from any paper.
 * There is no support for distributed training (multiple GPUs).
@@ -26,7 +26,7 @@ Below is the diagram of the implemented decoder-only, auto-regressive transforme
 ## Influence and Rationale
 I wanted to learn transformer architecture by recreating a minimum project. I was first recommended [nanoGPT](https://github.com/karpathy/nanoGPT/), a great project but a bit too complex for beginners. That is because nanoGPT is compatible with published GPT models, tries to reproduce benchmarks, and supports distributed training.
 
-Fortunately, Krapathy's previous [minGPT](https://github.com/karpathy/minGPT/) project is simpler and more educational. I used minGPT as a basis for this project but added comments and changed the structure to make it easier to follow.
+Fortunately, Karpathy's previous [minGPT](https://github.com/karpathy/minGPT/) project is simpler and more educational. I used minGPT as a basis for this project but added comments and changed the structure to make it easier to follow.
 
 ## Installation
 
