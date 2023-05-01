@@ -1,6 +1,6 @@
 # Educational Transformer
 
-This Python project is an easy-to-follow, educational implementation of the transformer model in PyTorch. Since training takes just seconds (1.7sec on M1 MacBook), it encourages learning, experimentation, and playing with parameters. The [model.py](src/model.py) file is 110 code lines interwoven with 50 comment lines, like in the example below:
+This Python project is an easy-to-follow, educational implementation of the transformer model in PyTorch. Since training takes just seconds (1.7sec on M1 MacBook), it encourages learning, experimentation, and playing with parameters. The [model.py](src/model.py) file is 110 code lines mixed with 50 comment lines, like in the example below:
 
 ```python
     ...
@@ -14,11 +14,17 @@ This Python project is an easy-to-follow, educational implementation of the tran
         ...
 ```
 
-Here is the diagram of the implemented decoder-only, auto-regressive transformer architecture ([GPT-2](https://en.wikipedia.org/wiki/GPT-2)):
+This transformer implementation is simpler because:
+* There is no tokenizer step, instead generated data is dircetly fed to the model. 
+* There is no support for loading pretrained GPT2 or similar model wights.
+* It doesn't try to reproduce results from any paper.
+* There is no support for distributed training (multiple GPUs).
+
+Below is the diagram of the implemented decoder-only, auto-regressive transformer architecture ([GPT-2](https://en.wikipedia.org/wiki/GPT-2)):
 <img src="Wiki-Full-GPT-architecture.png" width="498" height="599">
 
 ## Influence and Rationale
-I wanted to learn transformer architecture by recreating a minimum project. I was first recommended [nanoGPT](https://github.com/karpathy/nanoGPT/), a great project but a bit too complex for beginners. That is because nanoGPT is compatible with published GPT models, tries to reproduce benchmarks, and supports distributed training, making it harder to understand.
+I wanted to learn transformer architecture by recreating a minimum project. I was first recommended [nanoGPT](https://github.com/karpathy/nanoGPT/), a great project but a bit too complex for beginners. That is because nanoGPT is compatible with published GPT models, tries to reproduce benchmarks, and supports distributed training.
 
 Fortunately, Krapathy's previous [minGPT](https://github.com/karpathy/minGPT/) project is simpler and more educational. I used minGPT as a basis for this project but added comments and changed the structure to make it easier to follow.
 
