@@ -42,7 +42,7 @@ To start, open the root folder in VSCode, and open [main.py](main.py), which con
 
 * Code cells are in normal ```*.py``` files that you can run directly.
 * Code cells can be run interactively by using ```Run Cell|Run Below/Above|Debug Cell``` above cells.
-* Unlike Jupyter notebooks, cell outputs are in a separate Interactive window. The "notebook" state is deleted as soon you close that window.
+* Unlike Jupyter notebooks, cell outputs are in a separate Interactive window. The "notebook" state is deleted when window is closed.
 
 Another code cells file is [param_search.py](param_search.py), which searches for the best hyperparameters for this toy model.
 
