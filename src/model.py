@@ -58,7 +58,7 @@ class GPT(nn.Module):
         # If targets are provided, compute loss.
         loss = None if targets is None else F.cross_entropy(
             # Use exact dimensions and ignore targets padding (-1).
-            logits.view(B*T, self.conf.vocab_size), targets.view(B*T), ignore_index=-1 )
+            logits.view(B*T, self.conf.vocab_size), targets.view(B*T).long(), ignore_index=-1 )
             # logits.view(B*T, self.conf.vocab_size), targets.view(B*T) )
         # Return logits and loss.
         return logits, loss
